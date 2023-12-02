@@ -56,8 +56,8 @@ class _ForgetPasswordState extends State<ForgetPassword> {
           child:
           TextFormField(
             decoration: InputDecoration(border: InputBorder.none,
-              prefixIcon: Icon(Icons.lock_outline,size: 30,color: Colors.black54),
-              label: Text("PASSWORD"),
+              prefixIcon: Icon(Icons.email_outlined,size: 28,color: Colors.black54),
+              label: Text("E-MAIL"),
               labelStyle: GoogleFonts.poppins(
                 textStyle: TextStyle(
                     color: Colors.grey[400],

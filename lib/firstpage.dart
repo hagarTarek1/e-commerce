@@ -1,3 +1,4 @@
+import 'package:e_commerce/homepage.dart';
 import 'package:e_commerce/thirdpage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -92,7 +93,9 @@ class _LoginScreenState extends State<LoginScreen> {
               maximumSize: Size(350, 600),
               minimumSize: Size(280, 60)
             ),
-              onPressed: (){}, child: Row(children: [
+              onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
+              }, child: Row(children: [
             Padding(
               padding: const EdgeInsets.only(left: 120),
               child: Text('LOG IN',
